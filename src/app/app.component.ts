@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ifamdrangular';
-  description = "ifam";
-  url = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Instituto_Federal_do_Amazonas_-_Marca_Vertical_2015.svg/1200px-Instituto_Federal_do_Amazonas_-_Marca_Vertical_2015.svg.png";
+  photos = [
+    {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sultan_the_Barbary_Lion.jpg/440px-Sultan_the_Barbary_Lion.jpg',
+      description: 'Leão'
+    },
+    {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Lioness_Etosha_NP.jpg/500px-Lioness_Etosha_NP.jpg',
+      description: 'Leoa'
+    }
+  ];
 }
